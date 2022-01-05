@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 En el proyecto voy a usar Angular y Tailwind Css
 
-![This is an image](../angular-tailwind/src/assets/Snapshots/Opera%20Captura%20de%20pantalla_2022-01-04_201828_localhost.png)
+![This is an image](/src/assets/Snapshots/Opera%20Captura%20de%20pantalla_2022-01-04_201828_localhost.png)
 
 ## Para instalar todo lo necesario
-El paso a paso y la explicacion en el siguiente link [Notion Page](https://plume-behavior-1e8.notion.site/Instalar-Tailwind-y-Angular-Material-75034a2a2bca4124a94b46666c99be32).
 
+El paso a paso y la explicacion en el siguiente link [Notion Page](https://plume-behavior-1e8.notion.site/Instalar-Tailwind-y-Angular-Material-75034a2a2bca4124a94b46666c99be32).
 
 ## Creando un componente simple
 

@@ -1,3 +1,18 @@
-<main class="bg-orange-300 min-h-screen flex justify-center items-center">
-    <h1>hola mundo</h1>
-</main>
+<div class="h-screen flex flex-col justify-center items-center">
+    <div class="p-5 w-3/12">
+        <div class="text-center w-full flex space-between mb-2 p-2">
+            <form #variablealeatoria="ngForm" (ngSubmit)="new(newverdura)">
+                <input class="border-2 rounded-3xl py-1 px-3 shadow-lg" type="text" #newverdura />
+                <button class="bg-purple-200 ml-2 py-1 px-3 rounded-3xl shadow-lg" type="submit">Agregar</button>
+            </form>
+        </div>
+        <div class="flex justify-center items-center w-full p-2 mb-4 shadow-lg rounded-lg" *ngFor="let Verdura of Verduras; let i = index">
+            <div class="w-full p-2 mt-2">
+                {{ Verdura }}
+            </div>
+            <div class="bg-purple-200 py-1 px-2 rounded-3xl hover:bg-purple-500">
+                <input class="hover:cursor-pointer" type="button" (click)="remove(i)" value="Eliminar" />
+            </div>
+        </div>
+    </div>
+</div>

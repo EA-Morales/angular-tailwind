@@ -1,46 +1,18 @@
-# Angular 13 - Angular material - Tailwind 3.0
+# Smart and Dumb Component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Para instalar angular material
+En el proyecto voy a usar Angular y Tailwind Css
 
-Primero instalar angular material
+![This is an image](../angular-tailwind/src/assets/Snapshots/Opera%20Captura%20de%20pantalla_2022-01-04_201828_localhost.png)
 
-```
-ng add @angular/material
-```
+## Para instalar todo lo necesario
+El paso a paso y la explicacion en el siguiente link [Notion Page](https://plume-behavior-1e8.notion.site/Instalar-Tailwind-y-Angular-Material-75034a2a2bca4124a94b46666c99be32).
 
-## Para intalar Tailwind css
 
-```
-npm install -D tailwindcss
-```
+## Creando un componente simple
 
-Luego inicializar tailwindcss
-
-```
-npx tailwindcss init
-```
-
-Configurar los paths al tailwind.config.js
-
-```
-module.exports = {
-  content: ["./src/**/*.{html,ts}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-Ultimo paso añadir las directivas css a tu css raiz
-
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
+El paso a paso y la explicacion en el siguiente link [Notion Page](https://plume-behavior-1e8.notion.site/Smart-and-Dumb-components-d401b783f66c4848b94dfeb391f1e692).
 
 ## Development server
 
